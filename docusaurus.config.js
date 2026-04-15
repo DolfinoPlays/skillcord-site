@@ -38,17 +38,31 @@ const config = {
     image: 'img/skillcord-social-card.svg',
     navbar: {
       title: 'Skillcord',
-      logo: {
-        alt: 'Skillcord Logo',
-        src: 'img/logo.svg',
-      },
+      style: 'dark',
       items: [
-        {to: '/', label: 'Home', position: 'left'},
-        {to: '/docs/intro', label: 'Docs', position: 'left'},
-        {to: '/docs/commands', label: 'Commands', position: 'left'},
-        {href: 'https://discord.com/oauth2/authorize?client_id=1337481384674984026', label: 'Invite', position: 'right'},
-        {href: 'https://discord.gg/AcacMuTYBu', label: 'Support', position: 'right'},
-        {href: 'https://github.com/DolfinoPlays/skillcord-site', label: 'GitHub', position: 'right'},
+        {
+          label: 'Home',
+          to: '/',
+          position: 'left',
+          activeBaseRegex: '^/$',
+        },
+        {
+          type: 'doc',
+          docId: 'intro',
+          label: 'Docs',
+          position: 'left',
+        },
+        {
+          label: 'Commands',
+          to: '/docs/commands',
+          position: 'left',
+          activeBaseRegex: '^/docs/commands/?$',
+        },
+        {
+          href: 'YOUR_INVITE_LINK_HERE',
+          label: 'Invite',
+          position: 'right',
+        },
       ],
     },
     footer: {
