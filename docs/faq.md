@@ -28,7 +28,3 @@ Yes. You can use it only for roles and progression if you want.
 ## Can members unlock both branches?
 
 That depends on how the server owner designs the tree. A tree can allow multiple paths or force exclusive choices.
-
-## Is the invite link live?
-
-Not yet. Replace the placeholder invite link in the site config and homepage before launch.
