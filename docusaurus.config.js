@@ -59,7 +59,7 @@ const config = {
           activeBaseRegex: '^/docs/commands/?$',
         },
         {
-          href: 'YOUR_INVITE_LINK_HERE',
+          href: 'https://discord.com/oauth2/authorize?client_id=1337481384674984026',
           label: 'Invite',
           position: 'right',
         },
