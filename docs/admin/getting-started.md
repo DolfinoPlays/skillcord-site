@@ -10,7 +10,7 @@ This is the basic setup flow for a new Skillcord server.
 
 Use the public invite link:
 
-`[Invite me!](https://discord.com/oauth2/authorize?client_id=1337481384674984026)`
+[Invite me!](https://discord.com/oauth2/authorize?client_id=1337481384674984026)
 
 Make sure the bot has the permissions it needs to manage roles and edit channel or category permission overwrites where applicable.
 
