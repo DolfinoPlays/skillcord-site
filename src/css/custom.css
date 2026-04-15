@@ -1,0 +1,61 @@
+:root {
+  --ifm-color-primary: #6d5efc;
+  --ifm-color-primary-dark: #5a49fb;
+  --ifm-color-primary-darker: #4f3dfb;
+  --ifm-color-primary-darkest: #3f2ee6;
+  --ifm-color-primary-light: #7d70fc;
+  --ifm-color-primary-lighter: #8f84fd;
+  --ifm-color-primary-lightest: #b5adfe;
+  --ifm-background-color: #0f1118;
+  --ifm-navbar-background-color: rgba(15, 17, 24, 0.9);
+  --ifm-footer-background-color: #0a0c12;
+  --ifm-font-color-base: #edf1ff;
+  --ifm-heading-color: #ffffff;
+  --ifm-code-font-size: 95%;
+  --ifm-card-background-color: #171b25;
+  --ifm-global-radius: 16px;
+}
+
+.skillcord-hero {
+  background:
+    radial-gradient(circle at top left, rgba(109, 94, 252, 0.35), transparent 30%),
+    radial-gradient(circle at top right, rgba(0, 214, 201, 0.18), transparent 25%),
+    linear-gradient(180deg, #0f1118 0%, #131826 100%);
+  padding: 5rem 0;
+}
+
+.skillcord-badge {
+  display: inline-block;
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.skillcord-actions {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.skillcord-card,
+.skillcord-panel {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015));
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.22);
+}
+
+.skillcord-panel {
+  padding: 1.5rem;
+}
+
+.navbar {
+  backdrop-filter: blur(12px);
+}
+
+ul li + li {
+  margin-top: 0.35rem;
+}

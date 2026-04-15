@@ -1,0 +1,9 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="630" fill="#0F1118"/>
+<rect x="70" y="70" width="1060" height="490" rx="40" fill="#151927" stroke="#2B3350"/>
+<rect x="120" y="120" width="120" height="120" rx="28" fill="#6D5EFC"/>
+<path d="M155 156C155 149.373 160.373 144 167 144H221C227.627 144 233 149.373 233 156V177C233 183.627 227.627 189 221 189H206V207H230C236.627 207 242 212.373 242 219V240C242 246.627 236.627 252 230 252H167C160.373 252 155 246.627 155 240V219C155 212.373 160.373 207 167 207H182V189H167C160.373 189 155 183.627 155 177V156Z" fill="white"/>
+<text x="280" y="190" fill="white" font-family="Arial, sans-serif" font-size="72" font-weight="700">Skillcord</text>
+<text x="280" y="260" fill="#C8D0F0" font-family="Arial, sans-serif" font-size="34">Turn your Discord server into a progression system.</text>
+<text x="120" y="390" fill="#EDF1FF" font-family="Arial, sans-serif" font-size="32">XP • Skill Points • Branches • Unlocks • Roles • Access Nodes</text>
+</svg>
