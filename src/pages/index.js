@@ -35,7 +35,7 @@ export default function Home() {
             </Link>
             <a
               className="button button--outline button--lg"
-              href="YOUR_INVITE_LINK_HERE"
+              href="https://discord.com/oauth2/authorize?client_id=1337481384674984026"
             >
               Invite Skillcord
             </a>
@@ -96,7 +96,7 @@ export default function Home() {
             <Link className="button button--primary button--lg" to="/docs/admin/getting-started">
               Setup Guide
             </Link>
-            <a className="button button--secondary button--lg" href="YOUR_SUPPORT_SERVER_LINK_HERE">
+            <a className="button button--secondary button--lg" href="https://discord.gg/AcacMuTYBu">
               Join Support Server
             </a>
           </div>
