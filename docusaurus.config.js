@@ -3,10 +3,10 @@ const config = {
   tagline: 'Turn your Discord server into a progression system.',
   favicon: 'img/favicon.svg',
 
-  url: 'https://YOUR_GITHUB_USERNAME.github.io',
+  url: 'https://DolfinoPlays.github.io',
   baseUrl: '/skillcord-site/',
 
-  organizationName: 'YOUR_GITHUB_USERNAME',
+  organizationName: 'DolfinoPlays',
   projectName: 'skillcord-site',
   trailingSlash: false,
 
@@ -46,9 +46,9 @@ const config = {
         {to: '/', label: 'Home', position: 'left'},
         {to: '/docs/intro', label: 'Docs', position: 'left'},
         {to: '/docs/commands', label: 'Commands', position: 'left'},
-        {href: 'YOUR_INVITE_LINK_HERE', label: 'Invite', position: 'right'},
-        {href: 'YOUR_SUPPORT_SERVER_LINK_HERE', label: 'Support', position: 'right'},
-        {href: 'YOUR_GITHUB_REPO_URL_HERE', label: 'GitHub', position: 'right'},
+        {href: 'https://discord.com/oauth2/authorize?client_id=1337481384674984026', label: 'Invite', position: 'right'},
+        {href: 'https://discord.gg/AcacMuTYBu', label: 'Support', position: 'right'},
+        {href: 'https://github.com/DolfinoPlays/skillcord-site', label: 'GitHub', position: 'right'},
       ],
     },
     footer: {
@@ -65,14 +65,14 @@ const config = {
         {
           title: 'Community',
           items: [
-            {label: 'Invite Skillcord', href: 'YOUR_INVITE_LINK_HERE'},
-            {label: 'Support Server', href: 'YOUR_SUPPORT_SERVER_LINK_HERE'},
+            {label: 'Invite Skillcord', href: 'https://discord.com/oauth2/authorize?client_id=1337481384674984026'},
+            {label: 'Support Server', href: 'https://discord.gg/AcacMuTYBu'},
           ],
         },
         {
           title: 'More',
           items: [
-            {label: 'GitHub', href: 'YOUR_GITHUB_REPO_URL_HERE'},
+            {label: 'GitHub', href: 'https://github.com/DolfinoPlays/skillcord-site'},
           ],
         },
       ],
