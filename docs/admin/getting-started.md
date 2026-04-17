@@ -49,10 +49,3 @@ Check:
 ## 5. Publish your tree
 
 Once your test is clean, make the tree visible to members and let them start progressing.
-
-## Suggested starter layout
-
-- Branch A: Community
-- Branch B: Content
-- Community unlocks social roles and hidden hangouts
-- Content unlocks creator tools, submission channels, and showcase areas
